@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background: #f8f9fa;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.katex {
+  display: inline-block;
+  vertical-align: middle;
+}
+.katex .base {
+  display: inline-block;
+}
+.katex-display {
+  display: block;
+  text-align: center;
+  margin: 0.5em 0;
+}
