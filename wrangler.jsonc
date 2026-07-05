@@ -1,0 +1,17 @@
+{
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "gkenntei",
+    "compatibility_date": "2026-07-04",
+    "observability": {
+        "enabled": true
+    },
+    "assets": {
+        "directory": [
+            "frontend/dist",
+            "data/q_a_clean_qw.json"
+        ]
+    },
+    "compatibility_flags": [
+        "nodejs_compat"
+    ]
+}
