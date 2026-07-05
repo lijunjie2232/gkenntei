@@ -75,7 +75,7 @@ function App() {
   const [jumpInput, setJumpInput] = useState('')
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
 
-  const frontendVersion = useMemo(() => '0.1.0', [])
+  const frontendVersion = useMemo(() => '1.0.0', [])
 
   const loadState = useCallback(() => {
     try {
