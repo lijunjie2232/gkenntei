@@ -9,5 +9,7 @@ wheels/
 # Virtual environments
 .venv
 
+data/*
 !data/q_a_clean_qw.json
-data/
+
+node_modules/*
