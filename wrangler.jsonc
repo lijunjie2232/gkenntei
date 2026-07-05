@@ -6,10 +6,7 @@
         "enabled": true
     },
     "assets": {
-        "directory": [
-            "frontend/dist",
-            "data/q_a_clean_qw.json"
-        ]
+        "directory": "frontend/dist"
     },
     "compatibility_flags": [
         "nodejs_compat"

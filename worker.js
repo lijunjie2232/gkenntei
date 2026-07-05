@@ -1,5 +1,5 @@
 // Import the static QA data (Assuming a bundler like Wrangler handles this path)
-import qaData from '../../data/q_a_clean_qw.json';
+import qaData from 'frontend/dist/q_a_clean_qw.json';
 
 const VERSION = "1.0.0"; // Replace with your versioning mechanism
 
